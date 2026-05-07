@@ -51,7 +51,7 @@ Before pipeline run, two preprocessing steps are required on any new NOAA GSOD C
 
 1. File renaming: All GSOD files downloaded from the same station have the same default filename. Append a year suffix to each file (e.g. '72530094846.csv' -> '72530094846_2019.csv') to distinguish year of station file.
 
-2. Station name delimiter replacement: Station names contain a comma separating airport or station name from state and country. A hyphen was added to avoid delimiter issues in CSV parsing (e.g. 'CHICAGO OHARE INTERNATIONAL AIRPORT, IL US' -> 'CHICAGO OHARE INTERNATIONAL AIRPORT - IL US')
+2. Station name delimiter replacement: Station names contain a comma separating airport or station name from state and country. A space and then hyphen were added in place of the comma to avoid delimiter issues in CSV parsing (e.g. 'CHICAGO OHARE INTERNATIONAL AIRPORT, IL US' -> 'CHICAGO OHARE INTERNATIONAL AIRPORT - IL US')
 
 
 # GCP Configuration
