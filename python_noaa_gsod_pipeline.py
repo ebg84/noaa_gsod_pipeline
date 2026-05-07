@@ -32,7 +32,7 @@ from google.cloud import storage, pubsub_v1
 
 
 # Project info
-PROJECT_ID = "SP26-I535-eg8-FinalProject"
+PROJECT_ID = "project_id"
 RAW_BUCKET = "eg-gsod-raw"
 CLEAN_BUCKET = "eg-gsod-clean"
 QUARANTINE_BUCKET = "eg-gsod-quarantine"
